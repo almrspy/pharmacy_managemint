@@ -9,7 +9,7 @@ namespace pharmacy_managemint.DAL
     class DataAccessLayer
     {
         
-        public static string con= "Data Source=ARAFAT/SQLEXPRESS; Initial Catalog=pharmacy_DB;Integrated Secuirty=True";
+        public static string con= "Data Source=DESKTOP-GO0U66H\\DODO;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
         public static SqlConnection cn;
         //open the connection
         public static void Open()
